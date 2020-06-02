@@ -25,7 +25,10 @@ export default class Cgetapp extends React.Component {
     render() {
         const { data } = this.state;
         return (
+            <div>
                 <h1>{data}</h1>
+                <Cgetapp token={token}/>
+            </div>  
             )
     }
 
