@@ -27,7 +27,6 @@ export default class Cgetapp extends React.Component {
         return (
             <div>
                 <h1>{data}</h1>
-                <Cgetapp token={token}/>
             </div>  
             )
     }

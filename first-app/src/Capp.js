@@ -34,7 +34,7 @@ export default class Capp extends React.Component {
         return (
             <div>
                 <h1>{id + " " + token}</h1>
-                
+                <Cgetapp token={token}/>
             </div>
             )
     }    
